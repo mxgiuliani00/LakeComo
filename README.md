@@ -8,8 +8,8 @@ The Lake Como system involves numerous economic activities and has been actively
 * Water supply deficit: the daily average quadratic water deficit between lake releases and downstream water demands, subject to a minimum environmental flow constraint to ensure adequate environmental conditions in the Adda River.
 
 
-  ----
-  ### Copyright:
+----
+### Copyright:
   
   Copyright 2018 NRM group - Politecnico di Milano
   
