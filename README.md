@@ -7,16 +7,23 @@ The Lake Como system involves numerous economic activities and has been actively
 * Flood control: the average annual number of flooding days in the simulation horizon.
 * Water supply deficit: the daily average quadratic water deficit between lake releases and downstream water demands, subject to a minimum environmental flow constraint to ensure adequate environmental conditions in the Adda River.
 
+To compile and run:
+* Run `make` in the test folder to compile
+* Run `./LakeComoSim settings_lakeComo_CSPA.txt u_test46.txt` to perform a simulation with a random policy
+* Edit `LakeComo_moeaf.java` in the moeaf folder to define the optimization settings 
+* Run `javac -classpath MOEAFramework-1.17-Executable:. LakeComo_moeaf.java` to compile the JAVA library for the optimization
+* Run `java -classpath MOEAFramework-1.17-Executable:. LakeComo_moeaf > output.txt` to run the optimization and save the reults (i.e. policy parameters and objectives) in the file output.txt
+
 
 ----
 ### Copyright:
   
-  Copyright 2018 NRM group - Politecnico di Milano
+Copyright 2019 NRM group - Politecnico di Milano
   
-  Developers: Matteo Giuliani, Marta Zaniolo, Andrea Castelletti.
+Developers: Matteo Giuliani, Marta Zaniolo, Andrea Castelletti.
   
-  LakeComo is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+LakeComo is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
   
-  The code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+The code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
   
-  You should have received a copy of the GNU General Public License along with LakeComo.  If not, see <http://www.gnu.org/licenses/licenses.en.html>.
+You should have received a copy of the GNU General Public License along with LakeComo.  If not, see <http://www.gnu.org/licenses/licenses.en.html>.
