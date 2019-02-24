@@ -9,9 +9,9 @@ The Lake Como system involves numerous economic activities and has been actively
 
 To compile and run:
 * Run `make` in the test folder to compile
-* Run `./LakeComoSim settings_lakeComo_CSPA.txt u_test46.txt` to perform a simulation with a random policy
+* Run `./LakeComoSim settings_lakeComo_CSPA.txt < u_test46.txt` to perform a simulation with a random policy
 * Edit `LakeComo_moeaf.java` in the moeaf folder to define the optimization settings 
-* Run `javac -classpath MOEAFramework-1.17-Executable:. LakeComo_moeaf.java` to compile the JAVA library for the optimization
+* Run `javac -classpath MOEAFramework-1.17-Executable:. LakeComo_moeaf.java` to compile the JAVA library for the optimization (for details see [MOEA Framework](http://moeaframework.org/))
 * Run `java -classpath MOEAFramework-1.17-Executable:. LakeComo_moeaf > output.txt` to run the optimization and save the reults (i.e. policy parameters and objectives) in the file output.txt
 
 
