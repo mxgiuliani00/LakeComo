@@ -13,7 +13,7 @@
 #include <math.h>
 #include <fstream>
 #include "../src/model_lakecomo.h"
-#include "../moeaf/moeaframework.h"
+#include "../src/moeaframework.h"
 
 using namespace std;
 

@@ -120,7 +120,7 @@ vector<double> model_lakecomo::simulate(int ps){
     qIn_1 = inflow00 ;
     
     // exogeneous information
-    vector<double> qForecast = utils::loadVector("../data/qaL51_CSPA.txt", H); // predicted 51-day cumulated streamflow from CSPA
+    vector<double> qForecast = utils::loadVector("../data/qSimAnomL51.txt", H); // perfect forecast of 51-day cumulated streamflow 
     
     // Run simulation:
     for(unsigned int t = 0; t < H; t++){

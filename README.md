@@ -1,5 +1,6 @@
 # LakeComo
-Simulation model of Lake Como and [Evolutionary Multi-Objective Direct Policy Search](https://ascelibrary.org/doi/abs/10.1061/(ASCE)WR.1943-5452.0000570) policy design. 
+Simulation model of Lake Como that can be combined with the [Borg Multi-Objective Evolutionary Algorithm](http://borgmoea.org/) or another MOEA implemented in the [MOEA Framework](http://moeaframework.org/) to design a set of Pareto optimal operating policies via [Evolutionary Multi-Objective Direct Policy Search](https://ascelibrary.org/doi/abs/10.1061/(ASCE)WR.1943-5452.0000570) policy design.
+The simulation is performed using a 1 year trajectory of inflow data simulated by a hydrologic model; the observed inflow are from [Consorzio dell'Adda](http://www.addaconsorzio.it/).
 
 Lake Como is a sub-alpine lake in the Italian lake district, northern Italy. It is the third-largest lake in Italy and reaches a maximum depth of 410 m, which makes it the fifth-deepest lake in Europe. The lake is shaped like an inverted 'Y' surrounded by mountains and primarily fed by the Adda River, which also serves as the only exit point of the lake. The lake catchment has an area of 4,733 km2, with approximately 90% in Italy and 10% in Switzerland. The hydrologic regime is snow-rainfall dominated, characterized by relatively dry winters and summers and high peaks of flow in spring and autumn, due to snowmelt and rainfall, respectively.
 
@@ -9,11 +10,7 @@ The Lake Como system involves numerous economic activities and has been actively
 
 To compile and run:
 * Run `make` in the test folder to compile
-* Run `./LakeComoSim settings_lakeComo_CSPA.txt < u_test46.txt` to perform a simulation with a random policy
-* Edit `LakeComo_moeaf.java` in the moeaf folder to define the optimization settings 
-* Run `javac -classpath MOEAFramework-1.17-Executable:. LakeComo_moeaf.java` to compile the JAVA library for the optimization (for details see [MOEA Framework](http://moeaframework.org/))
-* Run `java -classpath MOEAFramework-1.17-Executable:. LakeComo_moeaf > output.txt` to run the optimization and save the reults (i.e. policy parameters and objectives) in the file output.txt
-
+* Run `./LakeComoSim settings_lakeComo.txt < u_test46.txt` to perform a simulation with a random policy
 
 ----
 ### Copyright:

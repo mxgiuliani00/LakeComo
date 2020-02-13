@@ -14,7 +14,7 @@ LakeComoSim: main_lakecomo.o model_lakecomo.o param_function.o ncRBF.o rbf.o cat
 
 
 main_lakecomo.o: main_lakecomo.cpp ../src/model_lakecomo.h \
-	../moeaf/moeaframework.h
+	../src/moeaframework.h
 	$(CXX) $(CXXFLAGS) main_lakecomo.cpp
 
 model_lakecomo.o: ../src/model_lakecomo.cpp ../src/lake.h \
@@ -46,8 +46,8 @@ lakecomo.o: ../src/lakecomo.cpp ../src/lakecomo.h \
 lake.o: ../src/lake.cpp ../src/lake.h 
 	$(CXX) $(CXXFLAGS) ../src/lake.cpp
 
-moeaframework.o: ../moeaf/moeaframework.c ../moeaf/moeaframework.h
-	$(CXX) $(CXXFLAGS) ../moeaf/moeaframework.c 
+moeaframework.o: ../src/moeaframework.c ../src/moeaframework.h
+	$(CXX) $(CXXFLAGS) ../src/moeaframework.c 
 
 utils.o: ../src/utils.cpp ../src/utils.h
 	$(CXX) $(CXXFLAGS) ../src/utils.cpp
