@@ -10,11 +10,11 @@ To compile and run:
 * Run `make` in the test folder to compile
 * Run `./LakeComoSim settings_lakeComo.txt < u_test46.txt` to perform a simulation with a random policy
 
-The simulation is performed using a 1 year trajectory of inflow data simulated by a hydrologic model; the observed inflow are from [Consorzio dell'Adda](http://www.addaconsorzio.it/). The operating policies use as input the day of the year, the lake level, and a perfect forecast of the cumulated inflows over the next 51 days (according to the results of Denaro et al. 2017).
+The simulation is performed using a 1 year trajectory of inflow data simulated by a hydrologic model; the observed inflow are from [Consorzio dell'Adda](http://www.addaconsorzio.it/). The operating policies use as input the day of the year, the lake level, and a perfect forecast of the cumulated inflows over the next 51 days (according to the results of [Denaro et al. 2017](https://www.sciencedirect.com/science/article/pii/S0309170816304651)).
 
 **References:**
 
-Giuliani, M., M. Zaniolo, A. Castelletti, G. Davoli, and P. Block (2019), Detecting the state of the climate system via artificial intelligence to improve seasonal forecasts and inform reservoir operations, Water Resources Research, 55
+Giuliani, M., M. Zaniolo, A. Castelletti, G. Davoli, and P. Block (2019),[Detecting the state of the climate system via artificial intelligence to improve seasonal forecasts and inform reservoir operations](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR025035), Water Resources Research, 55, 9133-9147
 
 ----
 **Copyright:**
