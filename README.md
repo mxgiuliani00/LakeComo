@@ -14,7 +14,7 @@ The simulation is performed using a 1 year trajectory of inflow data simulated b
 
 **References:**
 
-Giuliani, M., M. Zaniolo, A. Castelletti, G. Davoli, and P. Block (2019),[Detecting the state of the climate system via artificial intelligence to improve seasonal forecasts and inform reservoir operations](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR025035), Water Resources Research, 55, 293–298
+Giuliani, M., M. Zaniolo, A. Castelletti, G. Davoli, and P. Block (2019),[Detecting the state of the climate system via artificial intelligence to improve seasonal forecasts and inform reservoir operations](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR025035), Water Resources Research, 55, 9133–9147
 
 ----
 **Copyright:**
