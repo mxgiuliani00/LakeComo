@@ -10,7 +10,7 @@ To compile and run:
 * Run `make` in the test folder to compile
 * Run `./LakeComoSim settings_lakeComo.txt < u_test46.txt` to perform a simulation with a random policy
 
-The simulation is performed using a 1 year trajectory of inflow data simulated by a hydrologic model; the mass balance equation of the lake storage is integrated over time with a hourly time step; the daily release decision is determined by a Gaussian Radial Basis Function with 4 inputs (sine and cosine of the day of the year, lake level, and a perfect forecast of the cumulated inflows over the next 51 days according to the results of [Denaro et al. 2017](https://www.sciencedirect.com/science/article/pii/S0309170816304651))), 1 output, and 5 Gaussian bases, for a total of 46 policy parameters (decision variables). See the settings file in the test folder for further details.
+The simulation is performed using a 1 year trajectory of inflow data simulated by a hydrologic model; the mass balance equation of the lake storage is integrated over time with a hourly time step; the daily release decision is determined by a Gaussian Radial Basis Function with 4 inputs, i.e. sine and cosine of the day of the year, lake level, and a perfect forecast of the cumulated inflows over the next 51 days according to the results of [Denaro et al. 2017](https://www.sciencedirect.com/science/article/pii/S0309170816304651), 1 output, and 5 Gaussian bases, for a total of 46 policy parameters (decision variables). See the settings file in the test folder for further details.
 The observed inflows used in the paper are from [Consorzio dell'Adda](http://www.addaconsorzio.it/). 
 
 
@@ -23,7 +23,7 @@ Giuliani, M., L. Crochemore, I. Pechlivanidis, and A. Castelletti (2020), [From 
 ----
 **Copyright:**
   
-Copyright 2019 Environmental Intelligence Lab - Politecnico di Milano.
+Copyright 2019 [Environmental Intelligence Lab](https://www.ei.deib.polimi.it/) - Politecnico di Milano.
   
 Developers: Matteo Giuliani, Marta Zaniolo, Andrea Castelletti.
   
