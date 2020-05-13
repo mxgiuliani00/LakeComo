@@ -16,7 +16,9 @@ The observed inflows used in the paper are from [Consorzio dell'Adda](http://www
 
 **References:**
 
-Giuliani, M., M. Zaniolo, A. Castelletti, G. Davoli, and P. Block (2019), [Detecting the state of the climate system via artificial intelligence to improve seasonal forecasts and inform reservoir operations](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR025035), Water Resources Research, 55 
+Giuliani, M., M. Zaniolo, A. Castelletti, G. Davoli, and P. Block (2019), [Detecting the state of the climate system via artificial intelligence to improve seasonal forecasts and inform reservoir operations](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR025035), Water Resources Research, 55 - see [paper branch](https://github.com/mxgiuliani00/LakeComo/tree/Paper-Giuliani2019WRR))
+
+Giuliani, M., L. Crochemore, I. Pechlivanidis, and A. Castelletti (2020), [From skill to value: isolating the influence of end-user behaviour on seasonal forecast assessment](https://www.hydrol-earth-syst-sci-discuss.net/hess-2019-659/), Hydrology and Earth System Sciences Discussion (under review)
 
 ----
 **Copyright:**
