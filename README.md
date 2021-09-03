@@ -8,7 +8,7 @@ The Lake Como system involves numerous economic activities and has been actively
 
 To compile and run:
 * Run `make` in the test folder to compile
-* Run `./LakeComoSim settings_lakeComo.txt < u_test46.txt` to perform a simulation with a random policy
+* Run `./LakeComoSim settings_lakeComo.txt < u_test46.txt` to perform a simulation with a random policy using forecast information
 
 The simulation is performed using a 1 year trajectory of inflow data simulated by a hydrologic model; the mass balance equation of the lake storage is integrated over time with a hourly time step; the daily release decision is determined by a Gaussian Radial Basis Function with 4 inputs (i.e. sine and cosine of the day of the year, lake level, and a perfect forecast of the cumulated inflows over the next 51 days according to the results of [Denaro et al. 2017](https://www.sciencedirect.com/science/article/pii/S0309170816304651)), 1 output, and 5 Gaussian bases, for a total of 46 policy parameters (decision variables). See the settings file in the test folder for further details.
 The observed inflows used in the paper are from [Consorzio dell'Adda](http://www.addaconsorzio.it/). 
@@ -18,12 +18,14 @@ The observed inflows used in the paper are from [Consorzio dell'Adda](http://www
 
 Giuliani, M., M. Zaniolo, A. Castelletti, G. Davoli, and P. Block (2019), [Detecting the state of the climate system via artificial intelligence to improve seasonal forecasts and inform reservoir operations](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019WR025035), Water Resources Research, 55 
 
+Giuliani, M., L. Crochemore, I. Pechlivanidis, and A. Castelletti (2020), [From skill to value: isolating the influence of end-user behaviour on seasonal forecast assessment](https://hess.copernicus.org/articles/24/5891/2020/), Hydrology and Earth System Sciences, 24
+
 ----
 **Copyright:**
   
 Copyright 2019 [Environmental Intelligence Lab](https://www.ei.deib.polimi.it/) - Politecnico di Milano.
   
-Developers: Matteo Giuliani, Marta Zaniolo, Andrea Castelletti.
+Developers: Matteo Giuliani and Andrea Castelletti.
   
 LakeComo is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
   
