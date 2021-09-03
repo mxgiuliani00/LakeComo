@@ -23,7 +23,7 @@ Giuliani, M., L. Crochemore, I. Pechlivanidis, and A. Castelletti (2020), [From 
 
 The full set of results are available in the [paper branch](https://github.com/mxgiuliani00/LakeComo/tree/Giuliani2019WRR-Giuliani2020HESS).
 
-** NOTE THAT SINCE 2021 THIS REPOSITORY IS NO LONGER MAINTAINED AND WAS MOVED UNDER THE [EILab-Polimi](https://github.com/EILab-Polimi) ORGANIZATION.
+## NOTE THAT SINCE 2021 THIS REPOSITORY IS NO LONGER MAINTAINED AND WAS MOVED UNDER THE [EILab-Polimi](https://github.com/EILab-Polimi) ORGANIZATION.
 
 ----
 **Copyright:**
