@@ -21,7 +21,9 @@ Giuliani, M., M. Zaniolo, A. Castelletti, G. Davoli, and P. Block (2019), [Detec
 
 Giuliani, M., L. Crochemore, I. Pechlivanidis, and A. Castelletti (2020), [From skill to value: isolating the influence of end-user behaviour on seasonal forecast assessment](https://hess.copernicus.org/articles/24/5891/2020/), Hydrology and Earth System Sciences, 24
 
-The full set of results are available in the [paper branch](https://github.com/mxgiuliani00/LakeComo/tree/Giuliani2019WRR-Giuliani2020HESS)
+The full set of results are available in the [paper branch](https://github.com/mxgiuliani00/LakeComo/tree/Giuliani2019WRR-Giuliani2020HESS).
+
+** NOTE THAT SINCE 2021 THIS REPOSITORY IS NO LONGER MAINTAINED AND WAS MOVED UNDER THE [EILab-Polimi](https://github.com/EILab-Polimi) ORGANIZATION.
 
 ----
 **Copyright:**
